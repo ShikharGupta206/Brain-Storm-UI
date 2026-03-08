@@ -1,0 +1,190 @@
+body{
+    background-color: grey;
+    margin:0;
+}
+.logo{
+    background-color:black;
+    display: flex;
+    align-items:center;
+    
+    color:white;
+    flex-direction: row-reverse;
+    height:100px
+
+}
+
+.id{
+    height:100px;
+    width:auto;
+    
+}
+
+.text{
+    text-align: center;
+    padding-right: 180px;
+}
+
+
+
+.search_box{
+    position: fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:60%;
+    padding:10px;
+    background-color: black;
+    
+    border: 2px solid orangered;
+    border-radius:30px;
+    padding: 10px 15px;
+    display : flex;
+    align-items : center;
+    gap:10px;
+    z-index:1000;
+}
+   
+
+
+
+
+.search_box i {
+    color: white;
+    cursor: pointer;
+    padding:6px;
+    
+}
+
+.search_box i:hover{
+   
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.chat_area{
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(56, 54, 54);
+    max-width:1000px;
+    
+    display: flex;
+    flex-direction: column;
+    width: auto;
+   
+   
+}
+.message_ai{
+    background-color: aqua;
+    padding:12px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display:block;
+    width:fit-content;
+    align-self: flex-start;
+    
+}
+.message_user{
+    background-color: whitesmoke;
+    padding:12px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display:block;
+    width:fit-content;
+    align-self:flex-end
+    
+}
+
+.message_ai2{
+    background-color: aqua;
+    padding:12px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display:block;
+    width:fit-content;
+    align-self: flex-start;
+    max-width:700px;
+    padding-top:12px;
+}
+
+
+/* Poora main area: sidebar + chat */
+.app {
+  display: flex;
+  height: auto; /* header ki height ke hisaab se adjust kariye */
+}
+
+/* LEFT sidebar (history / menu / features) */
+.sidebar {
+  width: 260px;              /* fixed left width */
+  background: #111;
+  color: #fff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+}
+
+/* RIGHT chat panel */
+.chat-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;   /* upar chat, neeche search */
+  background: #333;
+}
+
+/* Chat area middle mein full space le */
+.chat_area {
+  flex: 1;                  /* ye line zaroori hai */
+  padding: 40px 40px;
+  overflow-y: auto;
+  
+}
+
+/* Search bar hamesha bottom par fixed height pe */
+.search_box {
+  padding: 12px 20px;
+  border-top: 1px solid #444;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.search_box input{
+    flex:1;
+    border:none;
+    outline:none;
+    background: transparent;
+    color:white;
+    font-size: 16px;
+}
+
+
+.advancesub{
+    background-color:aqua;
+    border-radius:10px;
+    border-color:gold;
+}
+
+.prosub{
+    background-color: aqua;
+    border-radius:10px;
+    border-color:silver;
+}
+
+
+.reference{
+  padding-left: 15px;
+  color:white;
+  background: #111;
+  width:auto;
+}
+
+
+
+
+
+
+
