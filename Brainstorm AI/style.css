@@ -112,7 +112,7 @@ body{
 /* Poora main area: sidebar + chat */
 .app {
   display: flex;
-  height: auto; /* header ki height ke hisaab se adjust kariye */
+  height: auto; /* header ki height ke hisaab se adjust karega */
 }
 
 /* LEFT sidebar (history / menu / features) */
@@ -136,7 +136,7 @@ body{
 
 /* Chat area middle mein full space le */
 .chat_area {
-  flex: 1;                  /* ye line zaroori hai */
+  flex: 1;                 
   padding: 40px 40px;
   overflow-y: auto;
   
@@ -181,6 +181,7 @@ body{
   background: #111;
   width:auto;
 }
+
 
 
 
